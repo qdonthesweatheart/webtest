@@ -17,31 +17,43 @@
         margin: 0;
         padding: 25px;
       }
-      ol{
+      #grid ol{
         border-right: 1px solid gray;
         width: 130px;
         margin: 0;
         padding: 15px;
         text-align: center;
       }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #article{
+        padding-left: 36px;
+      }
     </style>
   </head>
   <body>
     <h1><a href="index.html">Painting Masters</a></h1>
+    <div id="grid">
     <ol>
-      <a href="1.html">Milon Avery</a>
-      <a href="2.html">Nicole Eisenman</a>
-      <a href="3.html">Philip Guston</a>
-      <a href="4.html">Paul Klee</a>
+      <p><a href="1.html">Milon Avery</a></p>
+      <p><a href="2.html">Nicole Eisenman</a></p>
+      <p><a href="3.html">Philip Guston</a></p>
+      <p><a href="4.html">Paul Klee</a></p>
     </ol>
-    <h2>Milton Avery</h2>
-    <p><iframe width="560" height="315"
+    <di id="article">
+      <h2>Milton Avery</h2>
+      <p><img src="maself.jpg" alt="" width="40%"></p>
+      <p><a href="https://en.wikipedia.org/wiki/Milton_Avery" target="_blank" title="Milton Avery wiki">Milton Avery</a> was an American painter celebrated for his portraits, still lifes, and landscapes. Working with both oils and watercolors, he used broad swaths of luminous color and stylized forms, to capture the essence of a scene without fixating on details. “I try to construct a picture in which shapes, spaces, colors, form a set of unique relationships, independent of any subject matter,” he once said.
+      Born on Ma rch 7, 1885 in Altmar, NY, he grew up in Connecticut and went on to attend art classes while working several jobs in Hartford. Moving to New York in 1925, his wife the artist Sally Michel Avery supported the two of them by working as a commercial illustrator in the city. Over the following years, he befriended other painters of the era, such as Mark Rothko, Adolph Gottlieb, and Barnett Newman, developing the increasingly abstract style exemplified by his late work Green Sea (1954). His paintings remained relatively unknown until 1929, when the Phillips Collection in Washington, D.C. became the first museum to purchase his work. Later in Avery’s life, he often traveled to the mountains of New Hampshire and Vermont during the summer, returning to New York in the winter months.
+      </p>
+      <p><iframe width="560" height="315"
       src="https://www.youtube.com/embed/_tlxITdkmLM"
       title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-    <p><img src="maself.jpg" alt="" width="40%"></p>
-    <p><a href="https://en.wikipedia.org/wiki/Milton_Avery" target="_blank" title="Milton Avery wiki">Milton Avery</a> was an American painter celebrated for his portraits, still lifes, and landscapes. Working with both oils and watercolors, he used broad swaths of luminous color and stylized forms, to capture the essence of a scene without fixating on details. “I try to construct a picture in which shapes, spaces, colors, form a set of unique relationships, independent of any subject matter,” he once said.
-    Born on Ma rch 7, 1885 in Altmar, NY, he grew up in Connecticut and went on to attend art classes while working several jobs in Hartford. Moving to New York in 1925, his wife the artist Sally Michel Avery supported the two of them by working as a commercial illustrator in the city. Over the following years, he befriended other painters of the era, such as Mark Rothko, Adolph Gottlieb, and Barnett Newman, developing the increasingly abstract style exemplified by his late work Green Sea (1954). His paintings remained relatively unknown until 1929, when the Phillips Collection in Washington, D.C. became the first museum to purchase his work. Later in Avery’s life, he often traveled to the mountains of New Hampshire and Vermont during the summer, returning to New York in the winter months.</p>
+      </p>
+    </div>
+  </div>
   </body>
 </html>
